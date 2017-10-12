@@ -13,7 +13,7 @@ abstract class Book {
 }
 
 class MyBook extends Book {
-    private int price;
+    int price;
 
     MyBook(String t, String a, int p) {
         super(t, a);
